@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.webp);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score1{
+    text-align: end;
+    font-size: 34px;
+}
+#quetion1{
+    font-size: 45px;
+    margin: 28px;
+}
+#ans1{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    font-size: 23px;
+    margin-top: 45px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+#sun{
+    font-size: 37px;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+#sun:hover{
+    transition: 1s;
+    color: black;
+    background-color: greenyellow;
+}
